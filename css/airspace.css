@@ -101,7 +101,8 @@ font header .navbar-default .navbar-nav li a:hover {
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
-  padding: 200px 0 280px 0;
+  /* padding: 200px 0 280px 0; */
+  padding: 200px 0 170px 0;
   position: relative;
 }
 #slider:before {
@@ -227,10 +228,18 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #333333;
   margin-top: 30px;
 }
+#slider .btn-call-to-action {
+    padding: 15px 35px;
+    border: none;
+    background-color: #fff;
+    font-size: 15px;
+    color: #333333;
+    margin-top: 30px;
+  }
 /*--
 	Feature Start
 --*/
-#feature {
+/* #feature {
   background: url("../img/featue-bg.jpg");
   background-position: 50% 94px;
   width: 100%;
@@ -249,17 +258,54 @@ font header .navbar-default .navbar-nav li a:hover {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  padding: 100px 0;
-}
+  backface-visibility: hidden; */
+  /* padding: 100px 0; */
+  /* margin: 100px; */
+  /* padding-right: 0; */
+  /* position: absolute; */
+  /* top: 40px; Header Height */
+  /* bottom: 20px; Footer Height */
+  /* width: 100%; */
+  /* opacity: 1; */
+/* } */
+
+#feature {
+    /* background: url("../img/featue-bg.jpg"); */
+    background-position: 50% 94px;
+    width: 100%;
+    display: block;
+    position: relative;
+    overflow: visible;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    padding: 0px 0;
+    opacity: 1;
+  }
+
 #feature h2 {
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
+  /* text-shadow: white 0px 0px 8px; */
+  /* -webkit-text-stroke: 2px black; */
+
 }
 #feature p {
   color: #8d8f92;
   margin-bottom: 20px;
+  /* text-shadow: white 0px 0px 8px; */
+  
 }
 #feature .btn-view-works {
   background: #655E7A;
